@@ -1,0 +1,103 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background: black;
+  opacity: 0.9;
+  text-align: center;
+  display: block;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  align-items: center;
+  }
+.logo img {
+  margin-left: 10px;
+  height: 50px;
+  flex-grow: 1;
+}
+nav {
+  flex-grow: 1;
+  text-align: right;
+}
+nav a {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+footer {
+height: 200px;
+}
+footer span {
+  text-align: left;
+  margin-left: 20px;
+}
+.locations {
+  background-image: url(../resources/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.loc {
+  display: flex;
+  justify-content: center;
+}
+.mission {
+  background-image: url(../resources/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+.products {
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.item img {
+  height: 200px;
+  width: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.shops {
+height: 300px;
+width: 300px;
+background-color: black;
+opacity: 1;
+margin-left: 20px;
+margin-right: 20px;
+}
+.ourmission {
+  background-color: black;
+  width: 1200px;
+  height: 125px;
+  margin: auto;
+  padding-bottom: 25px;
+
+}
+.product.items {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.item h4 {
+  margin-top: 10px;
+}
+.locations h2 {
+  padding-top: 50px;
+}

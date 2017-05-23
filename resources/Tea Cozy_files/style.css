@@ -1,0 +1,57 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+  display: flex;
+  width: 1300px;
+  height: 69px;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+
+}
+.logo {
+  margin-left: 10px;
+  height: 50px;
+  width: auto;
+}
+nav {
+  flex-grow: 1;
+  text-align: right;
+  text-decoration: underline;
+}
+footer {
+
+}
+.locations {
+  background-image: url(../resources/img-locations-background.jpg);
+}
+.mission {
+  background-image: url(../resources/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+.products {
+  flex-direction: row;
+  width: 1000px;
+  height: 800px;
+  display: inline-block;
+
+}
+.item {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 15;
+}
+.shops {
+height: 300px;
+width: 300px;
+background-color: black;
+margin: 15 20;
+}
